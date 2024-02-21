@@ -19,6 +19,8 @@ resource "aws_instance" "tf_demo_vm" {
   instance_type = "t2.micro"
 
   tags = {
+    manual_tag = 21022024
+    Name = "tfDemoVM01_editted"
     Name      = "tfDemoVM01"
     yor_name  = "tf_demo_vm"
     yor_trace = "0ff69fe9-9823-46ee-a1ad-be11a8095c47"
