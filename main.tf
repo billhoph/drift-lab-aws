@@ -19,7 +19,6 @@ resource "aws_instance" "tf_demo_vm" {
   instance_type = "t2.micro"
 
   tags = {
-    3rd_Drift = "Created"
     Name      = "tfDemoVM01"
     yor_name  = "tf_demo_vm"
     yor_trace = "9b23f0df-eab2-47ec-8eea-4dfe53268cd4"
